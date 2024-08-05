@@ -31,18 +31,19 @@
 - Cung cấp thông tin về hệ thống bao gồm phiên bản kernel, kiến trúc, và thông tin máy chủ.
   ```
   ~$ hostnamectl
- Static hostname: Mumei-virtual-machine
+  Static hostname: Mumei-virtual-machine
        Icon name: computer-vm
          Chassis: vm
       Machine ID: 8052b1734f5446db9ad9f399d7354fef
          Boot ID: 776b40d4b9474a0d963e593b3e3892fa
   Virtualization: vmware
-Operating System: Ubuntu 22.04.4 LTS              
+  Operating System: Ubuntu 22.04.4 LTS              
           Kernel: Linux 6.5.0-41-generic
     Architecture: x86-64
- Hardware Vendor: VMware, Inc.
+  Hardware Vendor: VMware, Inc.
   Hardware Model: VMware Virtual Platform
   ```
+
 ## 2. Shell
 - **Shell** là 1 chương trình có chức năng thực thi các command từ người dùng hoặc từ các ứng dụng - tiện ích yêu cầu chuyển đến cho **Kernel** xử lý .
 - Hoạt động của **shell** : *phân tích cú pháp lệnh -> thông dịch yêu cầu của lệnh -> truyền thông điệp tới kernel -> nhận kết quả trả về từ kernel và hiển thị ra màn hình kết quả của lệnh*.
