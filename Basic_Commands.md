@@ -1,9 +1,11 @@
 # Các lệnh Linux cơ bản
 - Dòng lệnh **shell** có dạng tổng quát như sau :
 <p align=center><strong><i>command &emsp;&emsp;[option]&emsp;&emsp;arguments</i></strong></p>
+
 - Trong đó :
     - ***command***  - tên lệnh
-    - ***options*** - các tùy chọn , thường bắt đầu bằng `-` hoặc `--` . Nhiều tùy chọn có thể kết hợp bằng 1 kí hiệu `-` <br>**VD :** `ls -l -a` <=> `ls -la`
+    - ***options*** - các tùy chọn , thường bắt đầu bằng `-` hoặc `--` . Nhiều tùy chọn có thể kết hợp bằng 1 kí hiệu `-` <br>
+    **VD :** `ls -l -a` <=> `ls -la`
     - ***arguments*** - tham số lệnh
 > **Chú ý** : dòng lệnh shell có phân biệt *chữ thường* và *chữ hoa*
 
